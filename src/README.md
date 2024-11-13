@@ -6,8 +6,6 @@ This is a project made by Nursamedin Abdi Dualle, it is a blog about chameleons,
 * A computer.
 * Internet access.
 
-## Link to the game itself
-Click the link down below to access the game (preferably Open in New Tab to be able to access the README while playing).
 
 # Run locally
 
