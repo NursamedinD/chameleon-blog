@@ -1,6 +1,11 @@
 import React from "react";
 import './App.css';
-import Home from "./components/Home"
+import About from "./components/About";
+import Home from "./components/Home";
+import NewPostForm from "./components/NewPostForm";
+import PostDetail from "./components/PostDetail";
+import Footer from "./components/Footer";
+// import { Router,Routes } from "react-router-dom";
 
 function App() {
   return (
@@ -8,7 +13,13 @@ function App() {
       <h1 style={{ textAlign: "center", color: "lightgreen" }}>
         <span style={{ background: "darkgreen" }}>Chameleon Blog</span>
       </h1>
-      <Home />
+      <main>
+        <About />
+        <Home />
+        <NewPostForm />
+        <PostDetail />
+      </main>
+      <Footer />
     </div>
   );
 }
