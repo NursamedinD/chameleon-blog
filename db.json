@@ -1,0 +1,24 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "title": "A master of disguise, the chameleon",
+        "content": "The chameleon is a master of diguise, capable of changing its color at will",
+        "imageUrl": "https://theconversation.com/can-chameleons-change-colour-in-their-sleep-the-conversations-curious-kids-podcast-231317.png"
+      },
+
+      {
+        "id": 2,
+        "title": "Test",
+        "content": "Test",
+        "imageUrl": "https://theconversation.com/can-chameleons-change-colour-in-their-sleep-the-conversations-curious-kids-podcast-231317.png"
+      },
+
+      {
+        "id": 3,
+        "title": "Test",
+        "content": "Test",
+        "imageUrl": "https://theconversation.com/can-chameleons-change-colour-in-their-sleep-the-conversations-curious-kids-podcast-231317.png"
+      }
+    ]
+}
