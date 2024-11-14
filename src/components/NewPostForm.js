@@ -15,6 +15,7 @@ function NewPostForm({ addNewPost }) {
   }
 
   return (
+    <div className="form">
     <form onSubmit={handleSubmit}> 
       <input
       type="type"
@@ -39,6 +40,7 @@ function NewPostForm({ addNewPost }) {
       <button type="submit">Submit Post</button>
 
     </form>
+    </div>
   );
 }
 
