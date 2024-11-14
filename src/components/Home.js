@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Home({ posts }) {
   return (
     <div>
-      <h2>New Posts</h2>
+      <h2>Recent Posts</h2>
       <ul>
         {posts.map(post => (
           <li key={post.id}>
