@@ -25,7 +25,7 @@ function App() {
     <Router>
           <div>
       <Header />
-      <h1 style={{ textAlign: "center", color: "lightgreen" }}>
+      <h1 style={{ textAlign: "center", color: "lightgreen",  }}>
         <span style={{ background: "darkgreen" }}>Chameleon Blog</span>
       </h1>
       <Routes>

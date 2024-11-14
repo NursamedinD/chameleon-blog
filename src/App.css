@@ -1,0 +1,9 @@
+.header button {
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    background: none;
+    border: 2px solid darkgreen;
+    border-radius: 5px;
+    background-color: lightgreen;
+    color: #666;
+}
