@@ -2,7 +2,9 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <footer>
+      <p> Nursamedin Abdi Dualle Chameleon Blog. All rights reserved.</p>
+    </footer>
   )
 }
 
