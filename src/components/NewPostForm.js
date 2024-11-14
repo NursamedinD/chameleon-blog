@@ -22,20 +22,20 @@ function NewPostForm({ addNewPost }) {
       value={title}
       onChange={(event) => setTitle(event.target.value)}
       />
-
+      <br></br>
       <textarea
       placeholder="Content"
       value={content}
       onChange={(event) => setContent(event.target.value)}
       />
-
+      <br></br>
       <input
       type="type"
       placeholder="Image Url"
       value={image}
       onChange={(event) => setImage(event.target.value)}
       />
-
+      <br></br>
       <button type="submit">Submit Post</button>
 
     </form>
