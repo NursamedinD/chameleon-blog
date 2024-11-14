@@ -6,9 +6,9 @@ function Header() {
     <header className="header">
         <nav>
           <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="new">New Post</Link></li>
-            <li><Link to="/about">About</Link></li>
+            <button><Link to="/">Home</Link></button>
+            <button><Link to="new">New Post</Link></button>
+            <button><Link to="/about">About</Link></button>
           </ul>
         </nav>
     </header>
