@@ -32,9 +32,15 @@ This is a simple blog which allows users and readers to add, or view a blog dedi
 * About page.
 * Post Submission form.
 
+## How to use
+* Clicking on the "Read more" button on the posts will open them up allowing you to view the rest of the info.
+* If you ever want to go back, you can press the Home button to take you back to the first page.
+* The New Post button takes you a form which allows you to add to the post, this can be done by filling in the boxes with the info provided
+* Clicking on the About button will take you to the About tab, which details the creator of the blog as well as copyright
+
 ## Technologies Used
-* React JS
-* JSX
+* React JS.
+* JSX.
 
 
 
