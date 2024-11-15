@@ -21,6 +21,18 @@ This is a project made by Nursamedin Abdi Dualle, it is a blog about chameleons,
 4. Once done go into the directory by doing cd NursamedinD/chameleon-blog.
 5. Finally type in code . to open it into your prefered programming app.
 
+## Description
+
+This is a simple blog which allows users and readers to add, or view a blog dedicated to infomation and facts about chameleons.
+
+## Features
+* Home page with blog posts.
+* Buttons that can take you to different routes (Ie Home, Post New form, About).
+* Simple landing page.
+* About page.
+* Post Submission form.
+
+
 
 
 # License
