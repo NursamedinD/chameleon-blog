@@ -32,6 +32,10 @@ This is a simple blog which allows users and readers to add, or view a blog dedi
 * About page.
 * Post Submission form.
 
+## Technologies Used
+* React JS
+* JSX
+
 
 
 
