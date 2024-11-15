@@ -4,18 +4,27 @@ import { useState } from 'react';
 function NewPostForm({ addNewPost }) {
   const [title, setTitle] = useState('')
   const [content, setContent] = useState('')
-  const [image, setImage] = useState('')
+  const [imageUrl, setImageUrl] = useState('')
 
-  function handleSubmit(event) {
+  const handleSubmit = (event) => {
     event.preventDefault();
-    addNewPost({ title, content, image });
+
+    const newPost = {
+      title,
+      content,
+      imageUrl
+    };
+    addNewPost({ newPost });
     setTitle('');
     setContent('');
-    setImage('');
-  }
+    setImageUrl('');
+  };
+
+
 
   return (
     <div className="form">
+      <h2>Create a New Post</h2>
     <form onSubmit={handleSubmit}> 
       <input
       type="type"
@@ -33,8 +42,8 @@ function NewPostForm({ addNewPost }) {
       <input
       type="type"
       placeholder="Image Url"
-      value={image}
-      onChange={(event) => setImage(event.target.value)}
+      value={imageUrl}
+      onChange={(event) => setImageUrl(event.target.value)}
       />
       <br></br>
       <button type="submit">Submit Post</button>

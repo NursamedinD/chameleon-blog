@@ -12,13 +12,13 @@ function App() {
   const [posts, setPosts] = useState ([]);
 
   useEffect(() => {
-    fetch('http://localhost:3001/posts')
+    fetch('http://localhost:3001/')
     .then(response => response.json())
     .then(data => setPosts(data))
   }, [])
 
   function addNewPost(post) {
-    fetch('http://localhost:3001/posts', {
+    fetch('http://localhost:3001/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
