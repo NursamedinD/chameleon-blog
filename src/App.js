@@ -12,10 +12,25 @@ function App() {
   const [posts, setPosts] = useState ([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/posts")
+    fetch('http://localhost:3001/posts')
     .then(response => response.json())
     .then(data => setPosts(data))
   }, [])
+
+  function addNewPost(post) {
+    fetch('http://localhost:3001/posts', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(post),
+    })
+    .then((response) => response.json())
+    .then((newPost) =>  {
+      setPosts((prevPosts) => [...prevPosts, newPost])
+    })
+    
+  }
 
   function addNewPost(post) {
     setPosts([...posts, { ...post, id: posts.length + 1 }]);
