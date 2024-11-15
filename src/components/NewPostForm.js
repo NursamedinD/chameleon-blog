@@ -6,25 +6,17 @@ function NewPostForm({ addNewPost }) {
   const [content, setContent] = useState('')
   const [imageUrl, setImageUrl] = useState('')
 
-  const handleSubmit = (event) => {
+  function handleSubmit(event) {
     event.preventDefault();
-
-    const newPost = {
-      title,
-      content,
-      imageUrl
-    };
-    addNewPost({ newPost });
+    addNewPost({ title, content, imageUrl });
     setTitle('');
     setContent('');
     setImageUrl('');
-  };
-
-
+  }
 
   return (
     <div className="form">
-      <h2>Create a New Post</h2>
+      <h2>Create a New post</h2>
     <form onSubmit={handleSubmit}> 
       <input
       type="type"

@@ -32,9 +32,9 @@ function App() {
     
   }
 
-  function addNewPost(post) {
-    setPosts([...posts, { ...post, id: posts.length + 1 }]);
-  }
+  // function addNewPost(post) {
+  //   setPosts([...posts, { ...post, id: posts.length + 1 }]);
+  // }
 
   return (
     <Router>
