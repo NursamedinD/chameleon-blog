@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Home({ posts }) {
   return (
-    <div>
+    <div className='home'>
       <h2>Recent Posts</h2>
       <ul>
         {posts.map(post => (
