@@ -11,9 +11,11 @@ function PostDetail({ posts }) {
 
   return (
     <div>
-      <h2>{post.title}</h2>
+      <article className='postBox'>
+      <h2 style={{ textDecoration: 'underline'}}>{post.title}</h2>
       <img src={post.imageUrl} alt={post.title} style={{ width: '200px' }} />
       <p>{post.content}</p>
+      </article>
     </div>
   );
 }

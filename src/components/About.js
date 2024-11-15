@@ -7,6 +7,7 @@ export function About() {
         <p>Welcome to this blog, in this blog you'll find some neat facts and information about chameleons.</p> 
         <p>I picked chameleons because they were my favorite animal growing up as a kid,</p>
         <p>so i made this blog dedicated to information about them</p>
+        <p>If you have any questions, feel free to contact me at: nursamedin.a.dualle@gmail.com</p>
     </div>
   )
 }

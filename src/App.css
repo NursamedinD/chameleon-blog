@@ -1,3 +1,11 @@
+.app {
+    background-color: darkgrey;
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+  }
+
+
 
 .home {
     margin-right: 2rem;
@@ -16,4 +24,11 @@
 
 .form {
     text-align: center;
+}
+
+.postBox {
+    padding: 1.5rem;
+    border: 5px solid green;
+    border-radius: 8px;
+    background: white;
 }
